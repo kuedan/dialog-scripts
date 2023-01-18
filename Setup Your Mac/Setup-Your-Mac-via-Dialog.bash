@@ -145,7 +145,7 @@ welcomeMessage="To begin, please enter the required information below, then clic
 # Welcome icon set to either light or dark, based on user's Apperance setting (thanks, @mm2270!)
 appleInterfaceStyle=$( /usr/bin/defaults read /Users/"${loggedInUser}"/Library/Preferences/.GlobalPreferences.plist AppleInterfaceStyle 2>&1 )
 if [[ "${appleInterfaceStyle}" == "Dark" ]]; then
-    welcomeIcon="https://cdn-icons-png.flaticon.com/512/5632/5632484.png"
+    welcomeIcon="https://bhcomets.com/wp-content/uploads/2017/12/Comercial-12.15-152x152.png"
 else
     welcomeIcon="https://cdn-icons-png.flaticon.com/512/979/979585.png"
 fi
